@@ -1,5 +1,5 @@
 - name: Install docker
-  hosts: local
+  hosts: 172.31.87.239
   connection: local
   become: true
   tasks:
